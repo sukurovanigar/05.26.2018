@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wechselautomat</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="inhalt">
+        <center>
+            <h1>WECHSELAUTOMAT</h1>
+            <input id="add" type="number" step="0.10" min="0.00"><br>
+            <p id="money"></p>
+
+            <button onclick="gimmiMoney()">CHECK IT</button>
+            <h1 id="message"></h1>
+    </div>
+    <div class="muenze">
+        <h1>Automat hat:</h1>
+        <p>2 €</p> <input type="number" id="zwei" value=100>
+        <p>1 €</p> <input type="number" id="ein" value=100>
+        <p>0.50 €</p> <input type="number" id="funfzig" value=100>
+        <p>0.20 €</p> <input type="number" id="zwanzig" value=100>
+        <p>0.10 €</p> <input type="number" id="zehn" value=100>
+
+        <p id="test2"></p>
+        <p id="test1"></p>
+        <p id="test50"></p>
+        <p id="test20"></p>
+        <p id="test10"></p>
+        <p id="test"></p>
+
+    </div>
+    <script src="js/atm.js"></script>
+</body>
+
+</html>
